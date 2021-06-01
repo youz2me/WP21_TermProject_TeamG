@@ -1,0 +1,32 @@
+<!doctype html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		function userlogin(){
+			var test_ans1 = "4";
+			var ans1_box = userans1.value;
+			if(test_ans1 == ans1_box){
+				location.href ="alert4.html";
+			}
+			else{
+				alert("문제를 다시 풀어보세요.");
+			}
+			}
+	</script>
+</head>
+<body>
+<div id="quiz"><br>
+		다음 설명에 해당하는 special Characters는?</br>
+		"non-breaking space"</br>
+		① &amp;gt&nbsp;&nbsp;&nbsp;② &amp;quot&nbsp;&nbsp;&nbsp;③ &amp;euro&nbsp;&nbsp;&nbsp;④ &amp;nbsp</br></br>
+		</div>
+
+<div id="answer"><br><br><br>
+
+		<input id="userans1" placeholder="답을 입력하세요">
+		<input type="button" value="제출" onclick="userlogin()">
+		</div>
+			
+</body>
+</html>

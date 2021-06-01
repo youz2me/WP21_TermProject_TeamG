@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		function userlogin(){
+			var test_ans1 = "3";
+			var ans1_box = userans1.value;
+			if(test_ans1 == ans1_box){
+				location.href ="alert2.html";
+			}
+			else{
+				alert("문제를 다시 풀어보세요.");
+			}
+			}
+	</script>
+</head>
+<body>
+<div id="quiz"><br>
+		HTML에서 single line break를 삽입하는 Tag는?</br>
+		① &lt;p&gt;&nbsp;&nbsp;&nbsp;② &lt;ol&gt;&nbsp;&nbsp;&nbsp;③ &lt;br&gt;&nbsp;&nbsp;&nbsp;④ &lt;!----&gt;</br></br></div>
+
+<div id="answer"><br><br><br>
+		<input id="userans1" placeholder="답을 입력하세요">
+		<input type="button" value="제출" onclick="userlogin()">
+</div>
+			
+</body>
+</html>

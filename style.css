@@ -1,0 +1,82 @@
+#definition {
+            border: 0px;
+			border-radius: 10px;
+			width:1000px;
+			height: 150px;
+			position: fixed;
+			left: 150px; right: 150px; top: 50px; bottom: 0;
+            background-color: #DAE3F3;
+			text-align: center;
+			font-family: Consolas;
+}
+
+#code {
+			background-color: #FFE8A1;
+			position: fixed;
+			left: 150px; right: 0; top: 250px; bottom: 0;
+			border: 0px;
+			border-radius: 10px;
+			width: 450px;
+			height: 500px;
+			font-family: Consolas;
+			padding: 30 30 30 30px;
+}
+        
+ #result {
+			background-color: #FFE8A1;
+			position: fixed;
+			left: 700px; right: 0; top: 250px; bottom: 0;
+			border: 0px;
+			border-radius: 10px;
+			width:450px;
+			height: 500px;
+			font-family: Consolas;
+			padding: 30 30 30 30px;
+}
+
+#quiz {
+            background-color: #DAE3F3;
+			position: fixed;
+			left: 150px; right: 150px; top: 50px; bottom: 0;
+			border: 0px;
+			border-radius: 10px;
+            width:1000px;
+			height: 150px;
+			font-family: Sitka Banner;
+			text-align: center;
+			padding: 50 30 30 30px;
+			font-size: 20pt;
+}
+
+#answer {
+            background-color: #FFE8A1;
+			position: fixed;
+			left: 150px; right: 0; top: 250px; bottom: 0;
+			border: 0px;
+			border-radius: 10px;
+            width:1000px;
+			height: 250px;
+			font-family: Sitka Banner;
+			text-align: center;
+			padding: 50 30 30 30px;
+			font-size: 20pt;
+}
+
+#alert {
+            background-color: #FFE8A1;
+			position: fixed;
+			left: 150px; right: 0; top: 50px; bottom: 0;
+			border: 0px;
+			border-radius: 10px;
+            width:1000px;
+			height: 300px;
+			font-family: Arial Black;
+			text-align: center;
+			padding: 50 30 30 30px;
+			font-size: 50pt;
+}
+
+#alert a {
+		    text-decoration:none;
+			color: #5C94EE;
+		}
